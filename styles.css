@@ -15,7 +15,13 @@ section {
      padding-bottom: 80px;
      padding-top: 80px;
     display: flex;
-     justify-content: center;
+   justify-content: center;
+}
+/* código omitido */
+
+section {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .chamada-texto {
@@ -31,4 +37,9 @@ p {
 }
 img {
   height: 200px;
+}
+.categoria-videos {
+  display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
